@@ -70,97 +70,57 @@ The Ministry of Transport, in collaboration with various stakeholders including 
      - Formula: `YoY Accidents = ([CY Accident Count] - [PY Accident] ) / [PY Accident]`
 
 
-# Snapshot of Dashboard (Power BI Service)
 
-![dashboard_snapo](https://user-images.githubusercontent.com/102996550/174096257-11f1aae5-203d-44fc-bfca-25d37faf3237.jpg)
 
  
  # Report Snapshot (Power BI DESKTOP)
 
  
-![Dashboard_upload](https://user-images.githubusercontent.com/102996550/174074051-4f08287a-0568-4fdf-8ac9-6762e0d8fa94.jpg)
+![Dashboard](https://github.com/alokrrbal/road-accident-analysis/assets/116140888/3e759d72-0db2-4673-bc09-1b18da0b6a87)
 
-# Insights
+## Insights from Analysis:
 
-A single page report was created on Power BI Desktop & it was then published to Power BI Service.
+1. **Casualties by Area:**
+   - 38.05% of casualties occur in rural areas, while 61.95% occur in urban areas.
 
-Following inferences can be drawn from the dashboard;
+2. **Casualties by Light Condition:**
+   - 73.84% of casualties occur in daylight, whereas 26.16% occur in dark conditions.
 
-### [1] Total Number of Customers = 129880
+3. **Casualties by Road Type:**
+   - Single carriageway roads account for 108,000 casualties, followed by dual carriageways with 21,000 casualties, roundabouts with 10,000 casualties, one-way streets with 3,000 casualties, and slip roads with 2,000 casualties.
 
-   Number of satisfied Customers (Male) = 28159 (21.68 %)
+4. **Casualties by Vehicle Type:**
+   - Agricultural vehicles contribute to 399 casualties, bikes to 15,610 casualties, buses to 6,573 casualties, cars to 155,804 casualties, vans to 15,905 casualties, and other vehicle types to 1,446 casualties.
 
-   Number of satisfied Customers (Female) = 28269 (21.76 %)
+### Primary Key Numbers:
+1. Total casualties in the current year amount to 195,700 with a year-over-year (YoY) growth of -11.9%.
+2. The total number of accidents in the current year stands at 144,400, with a YoY change of -11.7%.
+3. Fatal accidents in the current year total 1,500, with a YoY change of -35.6%.
+4. Serious accidents in the current year amount to 18,800, with a YoY change of -16.6%.
+5. Slight accidents in the current year total 124,100, with a YoY growth of -10.8%.
 
-   Number of neutral/unsatisfied customers (Male) = 35822 (27.58 %)
-
-   Number of neutral/unsatisfied customers (Female) = 37630 (28.97 %)
+These insights provide valuable information regarding the distribution of casualties across different areas, light conditions, road types, and vehicle categories, along with key performance indicators highlighting the current status and trends in road accidents.
 
 
-           thus, higher number of customers are neutral/unsatisfied.
-           
-### [2] Average Ratings
+### Suggestions Based on Insights:
 
-    a) Baggage Handling - 3.63/5
-    b) Check-in Service - 3.31/5
-    c) Cleanliness - 3.29/5
-    d) Ease of online booking - 2.88/5
-    e) Food & Drink - 3.21/5
-    f) In-flight Entertainment - 3.36/5
-    g) In-flight service - 3.64/5
-    h) In-flight Wifi service - 2.81/5
-    i) Leg room service - 3.37/5
-    j) On-board service - 3.38/5
-    k) Online boarding - 3.33/5
-    l) Seat comfort - 3.44/5
-    m) Departure & arrival convenience - 3.22/5
-  
-  while calculating average rating, null values have been ignored as they were not relevant for some customers. 
-  
-  These ratings will change if different visual filters will be applied.  
-  
-  ### [3] Average Delay 
-  
-      a) Average delay in arrival(minutes) - 15.09
-      b) Average delay in departure(minutes) - 14.71
-Average delay will change if different visual filters will be applied.
+1. **Targeted Road Safety Campaigns:**
+   - Develop targeted road safety campaigns focusing on rural areas to address the relatively high proportion of casualties occurring in these regions. These campaigns could include initiatives to improve road infrastructure, increase awareness about safe driving practices, and enhance emergency response capabilities in rural areas.
 
- ### [4] Some other insights
- 
- ### Class
- 
- 1.1) 47.87 % customers travelled by Business class.
- 
- 1.2) 44.89 % customers travelled by Economy class.
- 
- 1.3) 7.25 % customers travelled by Economy plus class.
- 
-         thus, maximum customers travelled by Business class.
- 
- ### Age Group
- 
- 2.1)  21.69 % customers belong to '0-25' age group.
- 
- 2.2)  52.44 % customers belong to '25-50' age group.
- 
- 2.3)  25.57 % customers belong to '50-75' age group.
- 
- 2.4)  0.31 % customers belong to '75-100' age group.
- 
-         thus, maximum customers belong to '25-50' age group.
-         
-### Customer Type
+2. **Visibility Enhancement Measures:**
+   - Implement measures to improve visibility on roads during nighttime, such as upgrading street lighting and promoting the use of reflective materials on vehicles and clothing. This could help reduce the number of accidents occurring in dark conditions.
 
-3.1) 18.31 % customers have customer type 'First time'.
+3. **Infrastructure Upgrades:**
+   - Prioritize infrastructure upgrades and safety improvements on single carriageway roads, which account for a significant number of casualties. This may involve widening roads, installing safety barriers, and implementing traffic calming measures to reduce the risk of accidents.
 
-3.2) 81.69 % customers have customer type 'returning'.
-       
-       thus, more customers have customer type 'returning'.
+4. **Vehicle Safety Measures:**
+   - Focus on promoting vehicle safety features and encouraging the adoption of safer vehicle types, particularly among high-risk categories such as motorcycles and agricultural vehicles. This could include awareness campaigns highlighting the importance of vehicle maintenance, seatbelt usage, and the benefits of advanced safety technologies.
 
-### Type of travel
+5. **Continued Monitoring and Evaluation:**
+   - Establish a framework for ongoing monitoring and evaluation of road safety initiatives to assess their effectiveness and identify areas for improvement. Regular data analysis and reporting can help track progress towards reducing casualties and inform future interventions.
 
-4.1) 69.06 % customers have travel type 'Business'.
+6. **Community Engagement:**
+   - Engage with local communities, stakeholders, and advocacy groups to raise awareness about road safety issues and foster a culture of responsible driving. Community-led initiatives and grassroots efforts can complement government-led interventions and contribute to long-term behavior change.
 
-4.2) 30.94 % customers have travel type 'Personal'.
-
-        thus, more customers have travel type 'Business'.
+7. **Multi-Agency Collaboration:**
+   - Strengthen collaboration among government agencies, law enforcement, emergency services, and transportation authorities to ensure a coordinated approach to road safety. Regular communication and joint efforts can lead to more effective enforcement, faster emergency response times, and better coordination of road infrastructure projects.
