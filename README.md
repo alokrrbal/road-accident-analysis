@@ -78,6 +78,9 @@ The Ministry of Transport, in collaboration with various stakeholders including 
  
 ![Dashboard](https://github.com/alokrrbal/road-accident-analysis/assets/116140888/3e759d72-0db2-4673-bc09-1b18da0b6a87)
 
+ # Report Recording
+https://github.com/alokrrbal/road-accident-analysis/assets/116140888/cb4e9e8b-aea7-4175-96f8-1eeb741ce516
+
 ## Insights from Analysis:
 
 1. **Casualties by Area:**
